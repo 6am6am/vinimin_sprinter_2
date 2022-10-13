@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/final.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <header>
+            <div class="header-title">
+                <div class="container">
+                    <p class="notification">
+                        NO SHIPPING when buying my first peanut in 3 or 6 steps
+                        + my first peanut Follow-up kit
+                    </p>
+                </div>
+            </div>
+            <nav class="navigation">
+                <div class="container nav">
+                    <a href="#">
+                        <img class="logo" src="assets/images/logo.png"/>
+                    </a>
+
+                    <ul>
+                        <li><a href="Home">Home</a></li>
+                        <li><a href="Dagboek">Dagboek</a></li>
+                        <li><a href="Contact">Contact</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <section class="container">
+
+            <form action="">
+                <!-- Datum -->
+                <div class="radio-tile-group">
+                    <h2>Datum</h2>
+                    <div class="box-holder"></div>
+                        <div >
+                            <input  type="date" placeholder="datum">
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Geslacht -->
+                <div class="radio-tile-group">
+                    <h2>Geslacht</h2>
+                    <div class="box-holder">
+                        <div class="input-container">
+                            <input id="male" type="radio" name="Geslacht">
+                            <div class="radio-tile">
+                                <ion-icon name="man-outline"></ion-icon>
+                                <label for="male"></label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="female" type="radio" name="Geslacht">
+                            <div class="radio-tile">
+                                <ion-icon name="woman-outline"></ion-icon>
+                                <label for="female"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="radio-tile-group">
+                    <h2>Mini Gewicht</h2>
+                    <div class="box-holder">
+                        <div class="input-container">
+                            <input id="gewicht-1" type="radio" name="Gewicht">
+                            <div class="radio-tile">
+                                <label for="gewicht-1">0-25 lbs</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="gewicht-2" type="radio" name="Gewicht">
+                            <div class="radio-tile">
+                                <label for="gewicht-2">25-50 lbs</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="gewicht-3" type="radio" name="Gewicht">
+                            <div class="radio-tile">
+                                <label for="gewicht-3">50-100 lbs</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+
+                <!-- Allergeen     -->
+                <div class="radio-tile-group">
+                    <h2>Allergeen</h2>
+                    <div class="box-holder">
+                        <div class="input-container">
+                            <input id="pinda" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="pinda">Pinda</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="amandel" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="amandel">Amandal</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="hazel" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="hazel">Hazel noot</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="cashew" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="cashew">Cashe wnoot</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="walnoot" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="walnoot">Walnoot</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="ei" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="ei">Ei</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="soja" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="soja">Soja</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="schelp" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="schelp">Schelp</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="vis" type="checkbox" name="Allergeen">
+                            <div class="radio-tile">
+                                <label for="vis">Vis</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hoeveelheid Allergeen -->
+                <div class="radio-tile-group">
+                    <h2>Hoeveelheid Allergeen</h2>
+                    <div class="box-holder">
+                        <div class="input-container">
+                            <input id="massa-1" type="radio" name="Hoeveelheid">
+                            <div class="radio-tile">
+                                <label for="massa-1">0-100 gram</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="massa-2" type="radio" name="Hoeveelheid">
+                            <div class="radio-tile">
+                                <label for="massa-2">100-150 gram</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="massa-3" type="radio" name="Hoeveelheid">
+                            <div class="radio-tile">
+                                <label for="massa-3">150-200 gram</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maaltijd Dagdeel -->
+                <div class="radio-tile-group">
+                    <h2>Maaltijd Dagdeel</h2>
+                    <div class="box-holder">
+                        <div class="input-container">
+                            <input id="ochtend" type="radio" name="Maaltijd">
+                            <div class="radio-tile">
+                                <label for="ochtend">OCHTEND</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="middag" type="radio" name="Maaltijd">
+                            <div class="radio-tile">
+                                <label for="middag">MIDDAG</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <input id="avond" type="radio" name="Maaltijd">
+                            <div class="radio-tile">
+                                <label for="avond">AVOND</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- opmerking -->
+                <div class="radio-tile-group">
+                    <h2>Opmerking</h2>
+                    <textarea name="" id="" rows="8"></textarea>
+                    <div class="attachment-box">
+                        <input type="file">
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="btn-holder">
+                    <button type="button">Annuleren</button>
+                    <button type="submit">Opslaan</button>
+                </div>
+
+            </form>
+
+
+
+
+
+
+
+        </section>
+
+        <script type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
